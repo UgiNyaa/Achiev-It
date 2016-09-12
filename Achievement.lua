@@ -4,7 +4,9 @@ local Achievement = {}
 Achievement.__index = Achievement
 
 function Achievement:new()
+    print("in achievement methode new in")
     setmetatable({}, Achievement)
+    print("proceeded in achievement new method")
     return self
 end
 
