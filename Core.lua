@@ -1,1 +1,3 @@
-print("Hello World!")
+local achievement = Achievement.new()
+
+achievement:hello()
