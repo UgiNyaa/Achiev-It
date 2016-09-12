@@ -4,6 +4,5 @@
 ## Notes: Lets you create your own achievements.
 ## Version: v1.00 (for 7.0.3)
 
-Core.lua
-
 Achievement.lua
+Core.lua
