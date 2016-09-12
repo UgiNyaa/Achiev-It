@@ -1,6 +1,6 @@
 print("core lua starts")
 
-local achievement = Achievement.new()
+local achievement = Achievement:new()
 
 achievement:hello()
 
