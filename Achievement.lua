@@ -1,3 +1,5 @@
+print("achievement lua starts")
+
 local Achievement = {}
 Achievement.__index = Achievement
 
@@ -9,3 +11,5 @@ end
 function Achievement:hello()
     print("Hello World!")
 end
+
+print("achievement lua ends")
