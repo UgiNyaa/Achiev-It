@@ -2,11 +2,10 @@ local Achievement = {}
 Achievement.__index = Achievement
 
 function Achievement.new()
-    local self = setmetatable({}, Achievement)
-    self.value = init
+    setmetatable({}, Achievement)
     return self
 end
 
-function Achievement.hello(self)
+function Achievement:hello()
     print("Hello World!")
 end
