@@ -1,0 +1,7 @@
+## Interface: 70000
+## Title: |cff0055FFAchieve-It|r
+## Author: Sleep_tight_bob
+## Notes: Lets you create your own achievements.
+## Version: v1.00 (for 7.0.3)
+
+Core.lua
