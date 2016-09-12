@@ -1,7 +1,7 @@
 local Achievement = {}
 Achievement.__index = Achievement
 
-function Achievement.new()
+function Achievement:new()
     setmetatable({}, Achievement)
     return self
 end
