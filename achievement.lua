@@ -2,8 +2,7 @@ local Achievement = {name = ""}
 Achievement.__index = Achievement
 
 Achievement.New = function(name)
-    self = {}
-    setmetatable(self, Achievement)
+    local self = setmetatable({}, Achievement)
     
     self.name = name;
     
