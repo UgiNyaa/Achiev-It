@@ -1,21 +1,10 @@
-print("Entering Achievement file")
-
 Achievement = {name = ""}
 Achievement.__index = Achievement
 
-print("Achievement meta table created")
-
-Achievement.New = function(name)
-
-    print("Entering the constructor 'new'")
-    
+Achievement.New = function(name)    
     local self = setmetatable({}, Achievement)
     
-    print("self defined")
-    
     self.name = name
-    
-    print("name " .. name .. " assigned")
     
     return self
 end
