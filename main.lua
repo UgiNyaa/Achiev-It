@@ -1,6 +1,6 @@
 print("main entered")
 
-local Achievement = require("achievement")
+local Achievement = require "achievement"
 
 print("achievement file loaded")
 
