@@ -1,6 +1,6 @@
 print("Entering Achievement file")
 
-local Achievement = {name = ""}
+Achievement = {name = ""}
 Achievement.__index = Achievement
 
 print("Achievement meta table created")
@@ -23,5 +23,3 @@ end
 Achievement.Hello = function(self)
     print("Hello " .. self.name)
 end
-
-return Achievement
