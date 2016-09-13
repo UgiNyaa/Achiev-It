@@ -1,10 +1,10 @@
 print("main entered")
 
-local Achievement = require "achievement"
+local Achievement = require("achievement")
 
 print("achievement file loaded")
 
-local a = Achievement:New("Flo <3")
+local a = Achievement.New("Flo <3")
 
 print("contstructor called")
 

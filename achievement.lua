@@ -5,7 +5,7 @@ Achievement.__index = Achievement
 
 print("Achievement meta table created")
 
-function Achievement:New(name)
+Achievement.New = function(name)
 
     print("Entering the constructor 'new'")
     
@@ -20,7 +20,7 @@ function Achievement:New(name)
     return self
 end
 
-function Achievement:Hello()
+Achievement.Hello = function(self)
     print("Hello " .. self.name)
 end
 
